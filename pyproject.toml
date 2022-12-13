@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "basic-return"
-version = "0.1.0.3"
+version = "0.1.0.4"
 description = ""
 authors = ["henrique lino <henrique.lino97@gmail.com>"]
 readme = "README.md"

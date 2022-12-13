@@ -1,4 +1,10 @@
 
+# v0.1.0.4 -- 2022-12-13
+
+## Fixed
+
+- changelog url in readme
+
 # v0.1.0.3 -- 2022-12-13
 
 ## Added
