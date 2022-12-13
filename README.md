@@ -63,14 +63,11 @@ Refer to the [CHANGELOG.md](https://github.com/henriquelino/retimer/blob/main/CH
 [pypi-image]: https://img.shields.io/pypi/v/basic-return
 [pypi-url]: https://pypi.org/project/basic-return/
 
-[build-image]: https://github.com/henriquelino/basic-return/actions/workflows/build.yaml/badge.svg
-[build-url]: https://github.com/henriquelino/basic-return/actions/workflows/build.yaml
+[build-image]: https://github.com/henriquelino/basic_return/actions/workflows/build.yaml/badge.svg
+[build-url]: https://github.com/henriquelino/basic_return/actions/workflows/build.yaml
 
 [stars-image]: https://img.shields.io/github/stars/henriquelino/basic_return
-[stars-url]: https://github.com/henriquelino/basic-return
-
-[stars-image]: https://img.shields.io/github/stars/henriquelino/basic_return
-[stars-url]: https://github.com/henriquelino/basic-return
+[stars-url]: https://github.com/henriquelino/basic_return
 
 [versions-image]: https://img.shields.io/pypi/pyversions/retimer
 [versions-url]: https://pypi.org/project/retimer/
