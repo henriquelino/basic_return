@@ -54,7 +54,7 @@ if br.status < 0:
 
 ## Changelog
 
-Refer to the [CHANGELOG.md](https://github.com/henriquelino/retimer/blob/main/CHANGELOG.md) file.
+Refer to the [CHANGELOG.md](https://github.com/henriquelino/basic_return/blob/main/CHANGELOG.md) file.
 
 
 
