@@ -4,6 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["henrique lino <henrique.lino97@gmail.com>"]
 readme = "README.md"
+repository = "https://github.com/henriquelino/basic_return"
 
 [tool.poetry.dependencies]
 python = "^3.9"
