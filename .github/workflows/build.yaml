@@ -1,4 +1,4 @@
-name: retimer CI
+name: build
 
 on:
   push:
