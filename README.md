@@ -69,6 +69,6 @@ Refer to the [CHANGELOG.md](https://github.com/henriquelino/basic_return/blob/ma
 [stars-image]: https://img.shields.io/github/stars/henriquelino/basic_return
 [stars-url]: https://github.com/henriquelino/basic_return
 
-[versions-image]: https://img.shields.io/pypi/pyversions/retimer
-[versions-url]: https://pypi.org/project/retimer/
+[versions-image]: https://img.shields.io/pypi/pyversions/basic_return
+[versions-url]: https://pypi.org/project/basic_return/
 
