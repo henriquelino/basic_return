@@ -11,7 +11,7 @@
 
 ## Getting started
 
-You can [get `basic-return` from PyPI](https://pypi.org/project/retimer),
+You can [get `basic-return` from PyPI](https://pypi.org/project/basic-return),
 which means it's easily installable with `pip`:
 
 ```bash
