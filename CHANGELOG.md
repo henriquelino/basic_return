@@ -1,4 +1,10 @@
 
+# v0.1.0.10 -- 2022-12-13
+
+## Fixed
+
+- Badge using wrong url
+
 # v0.1.0.9 -- 2022-12-13
 
 ## Fixed
