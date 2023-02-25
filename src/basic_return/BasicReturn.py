@@ -122,7 +122,7 @@ class BasicReturn:
     def owner_args(self):
         keypairs = list()
         for k, v in self.__current_frame.frame.f_back.f_locals.items():
-            if isinstance(v, self.__class__):
+            if isinstance(v, self.__class__):  # pragma: no cover
                 # don't print self var
                 continue
 
