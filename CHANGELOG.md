@@ -1,4 +1,11 @@
 
+<a id='changelog-0.1.0.11'></a>
+# 0.1.0.11 — 2023-02-24
+
+## Changed
+
+- __current_frame was pointing to -1 but 0 is the correct one
+
 # v0.1.0.10 -- 2022-12-13
 
 ## Fixed

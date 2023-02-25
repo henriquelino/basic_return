@@ -83,7 +83,7 @@ class BasicReturn:
         """
         self.print_payload = bool(print_payload)
         self.__call_stack = inspect.stack()
-        self.__current_frame = self.__call_stack[-1]
+        self.__current_frame = self.__call_stack[0]
         self.status = 'startup'
         self.message = 'startup'
         self.payload = 'startup'
@@ -121,7 +121,7 @@ class BasicReturn:
     @property
     def owner_args(self):
         keypairs = list()
-        for k, v in self.__current_frame.f_back.f_locals.items():
+        for k, v in self.__current_frame.frame.f_back.f_locals.items():
             if isinstance(v, self.__class__):
                 # don't print self var
                 continue
