@@ -1,18 +1,49 @@
 [tool.poetry]
 name = "basic-return"
-version = "0.1.0.10"
+version = "0.1.0.11"
 description = ""
 authors = ["henrique lino <henrique.lino97@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/henriquelino/basic_return"
 
-[tool.poetry.dependencies]
-python = "^3.9"
-
-
-[tool.poetry.group.dev.dependencies]
-pytest = "^7.2.0"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+
+[tool.scriv]
+version = 'literal: pyproject.toml: tool.poetry.version'
+format = 'md'
+
+
+[tool.flake8]
+ignore = [
+    #'E501', # line too long
+    'E402', # module level import not at top of file
+    'E251', # Unexpected spaces around keyword / parameter equals, let yapf handle this 
+]
+count = true
+statistics = true
+max-complexity = 15
+max-line-length = 200
+
+exclude = ['__pycache__', 'env', '.env']
+
+[tool.yapf]
+
+based_on_style = 'google'
+indent_width = 4
+column_limit = 140
+split_before_logical_operator = true
+EACH_DICT_ENTRY_ON_SEPARATE_LINE = true
+INDENT_DICTIONARY_VALUE = false
+ALLOW_SPLIT_BEFORE_DICT_VALUE = false
+INDENT_CLOSING_BRACKETS = false
+DEDENT_CLOSING_BRACKETS = true
+SPLIT_ALL_COMMA_SEPARATED_VALUES = true
